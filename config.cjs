@@ -4,7 +4,6 @@ require("dotenv").config();
 
 const config = {
   SESSION_ID: process.env.SESSION_ID || "levanter_26cd19852800d5448ca5d2d09f013358e3"
-2. npm i -g yarn pm2
 3. git clone https://github.com/souravkl11/raganork-md && cd raganork-md
 4. yarn install --ignore-engines --network-concurrency 1
 5. vi config.env

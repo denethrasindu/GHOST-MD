@@ -3,7 +3,16 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "GHOST-MD&JTqi7uct",
+  SESSION_ID: process.env.SESSION_ID || "levanter_26cd19852800d5448ca5d2d09f013358e3"
+2. npm i -g yarn pm2
+3. git clone https://github.com/souravkl11/raganork-md && cd raganork-md
+4. yarn install --ignore-engines --network-concurrency 1
+5. vi config.env
+6. Enter your session there in format 'SESSION=your_session_here'
+7. Press ctrl+c, then type ':wq' and press enter
+8. npm start
+
+Now the bot will start working",
   PREFIX: process.env.PREFIX || '.',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN !== undefined ? process.env.AUTO_STATUS_SEEN === 'true' : true, 
   AUTO_DL: process.env.AUTO_DL !== undefined ? process.env.AUTO_DL === 'true' : false,
